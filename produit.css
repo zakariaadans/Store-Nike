@@ -1,0 +1,295 @@
+/* l'en tete */
+.navbar {
+    background-color: #1f1f1f;
+}
+.navbar-brand img {
+    height: 70px; 
+
+}
+.navbar-nav .nav-link {
+    color: #fff; 
+    border-radius: 10px;
+    text-align: center;
+}
+.navbar-nav .nav-link:hover {
+    background-color:#ffc107 ;
+    border-radius: 10px;
+    color: #000;
+}
+
+.collapse ul a {
+    font-weight: bold;
+}
+header .logo img {
+    width: 120px;
+}
+/* la livraison */
+.livraison{
+    color: black;
+    background-color: #ffc107;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+/* la repraisentation de la produit */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-image {
+    width: 90%;
+    height:auto;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.product-info {
+    padding: 10px 20px;
+}
+
+.product-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+.product-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.product-price {
+    font-size: 24px;
+    color: #000;
+    margin: 10px 0;
+}
+.size-guide {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.size-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.size-option {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.size-option:hover {
+    background-color: #f8f9fa;
+}
+.btn-add-to-cart, .btn-add-to-favorites {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.btn-add-to-cart {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+.btn-add-to-cart:hover {
+    background-color: #e0a800;
+}
+.btn-add-to-favorites {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.btn-add-to-favorites:hover {
+    background-color: #f8f9fa;
+}
+.btn-add-to-favorites i {
+    margin-left: 8px;
+}
+.product-description {
+    margin: 20px 20px;
+    font-size: 17px;
+    color: #333;
+    line-height: 1.6;
+}
+.product-details {
+    font-size: 14px;
+    color: #666;
+}
+.product-details strong {
+    color: #000;
+}
+.size-option.selected {
+    border: 2px solid #000; 
+}
+/* le premiere div de les cards  */
+section {
+    padding: 20px;
+}
+.container{
+    margin: auto;
+    
+}
+    /* les titles  */
+    section h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-size: 32px;
+        text-align: center;
+    }
+    /* les cards des produits */
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    }
+    /* le button acheter de les card et nos modeles iconiques */
+    #Acheter:hover {
+        background-color: #ffc107;
+        color: #000;
+        font-weight: bold;
+        transform: scale(1.01);
+    }
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        border: 1px solid black;
+    }
+    
+    .card-title {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    
+    .card-text {
+        margin-bottom: 1rem;
+    }
+.shoe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+.shoe-image :hover{
+    transform: scale(1.05);
+}
+.shoe-container {
+    padding: 20px;
+}
+.shoe-container div:hover{
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
+/* foooooooooooooter */
+footer {
+    background-color: #1f1f1f; 
+    color: #fff; 
+    padding: 40px 0;
+}
+
+footer h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: none; 
+
+}
+div ul li{
+    margin-bottom: 5px;
+}
+
+footer a:hover {
+    color: #f8c52c;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.social-icons a:hover {
+    color: #f8c52c;
+}
+
+/* les media */
+@media (min-width:576px) {
+    .product-container{
+        margin: 20px auto;
+    }
+
+
+}
+@media (max-width:768px){ 
+    /* le pied */
+    footer div div div ul li{
+        text-align: center;
+    }
+    footer div div div h5{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .shoe-image {
+        margin-bottom: 20px;
+    }
+
+   
+}
+@media  (min-width:1200px) and (max-width:1400px){
+    img{
+        width: 100%;
+        /* padding-top: 20px; */
+        /* padding-left: 0px; */
+    }
+    .taille{
+        display: none;
+    }
+}
+@media  (min-width:992px) and (max-width:1200px){
+    .product-info{
+        width: 45%;
+    }
+    .img{
+        width: 55%;
+        margin-top:30px ;
+
+    }
+    .taille{
+        display: none;
+    }
+}
+@media (max-width:992px) {
+    .card{
+        margin: 15px auto;
+    }
+}
+@media (max-width:578px) {
+    .card{
+         margin: 30px;
+    }
+    section h1{
+        margin-top: 20px;
+    }
+}

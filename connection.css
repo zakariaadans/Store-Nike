@@ -186,3 +186,15 @@ footer a:hover {
 .social-icons a:hover {
     color: #f8c52c;
 }
+@media (max-width:576px) {
+    footer div div div ul li{
+        text-align: center;
+    }
+    footer div div div h5{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .login-form{
+        padding: 15px;
+    }
+}
